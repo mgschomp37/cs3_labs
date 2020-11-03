@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device width, initial-scale= 1.0">
+    <title>WELCOME TO SUNY MARKET</title>
+</head>
+<body>
+
+    <div class = "nav-bar">
+        <h1>WELCOME TO SUNY MARKET</h1>
+    </div>
+
+    <div id = "app">
+        <div class = "product">
+
+            <div class = "product-image">
+                <img v-bind:src="image">
+            </div>
+
+        </div>
+        <div class = "product-info">
+            <h1>{{ product }}</h1>
+        </div>
+        
+    </div>
+
+    <script src= "https://cdn.jsdelivr.net/npm/vue@2/dist/vue.js"></script>
+    <script src= "myjscript.js"></script>
+    <link href="styles.css" rel="stylesheet" type="text/css" media="screen" />
+
+</body>
+</html>
